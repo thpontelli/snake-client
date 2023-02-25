@@ -4,8 +4,8 @@ const {setupInput} = require("./input");
 
 
 console.log("Connecting ...");
-connect();
+setupInput(connect());
 
-console.log("Awaiting for key comands");
-setupInput();
+// console.log("Awaiting for key comands");
+// setupInput();
     
