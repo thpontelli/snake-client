@@ -3,7 +3,16 @@ const handleUserInput = function (key) {
   //console.log(key);
   if (key === '\u0003') {
     process.exit();
+  } else if (key === "w" || key === "W") {
+    console.log("Move: up");
+  } else if (key === "a" || key === "A") {
+    console.log("Move: left");
+  } else if (key === "s" || key === "S") {
+    console.log("Move: down");
+  } else if (key === "d" || key === "D") {
+    console.log("Move: right");
   }
+
 };
 
 // setup interface to handle user input from stdin
