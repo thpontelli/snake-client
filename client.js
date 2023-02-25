@@ -1,5 +1,7 @@
+// Client Module
+
 const net = require("net");
-const { IP, PORT, ENCODING } = require("./constants");
+const { IP, PORT, ENCODING, PLAYER_INITIALS } = require("./constants");
 
 
 // establishes a connection with the game server
@@ -19,7 +21,7 @@ const connect = function () {
   conn.on("connect", () => {
     // code that does something when the connection is first established
     console.log("Successfully connected to game server");
-    conn.write("Name: THI");
+    conn.write("Name: " + PLAYER_INITIALS);
     // setInterval(()=> {
     //   conn.write("Move: up");
     // },1000);
