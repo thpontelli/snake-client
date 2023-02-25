@@ -6,6 +6,10 @@ This is simply a multiplayer take on the genre.
 
 Before you can run this client, you will need to be running the server side which you can download and install from here. 
 
+**Install it:**
+
+`npm install @thpontelli/snake-client`
+
 ## Final Product
 
 !["Initial game setup"](001)
