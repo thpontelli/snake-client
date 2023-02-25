@@ -8,9 +8,9 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Initial game setup"](001)
-!["When you type "T" the client sends a "Thank you" message](002)
-!["When you type "B" the client sends a "Bye" message](003)
+!["Initial game setup"](./Screenshots/001.png)
+!["When you type "T" the client sends a "Thank you" message](./Screenshots/002.png)
+!["When you type "B" the client sends a "Bye" message](./Screenshots/003.png)
 
 ## Getting Started
 
